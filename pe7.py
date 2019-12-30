@@ -22,5 +22,4 @@ def prime_numbers() :
 	return primes
 
 
-primes = prime_numbers()
-print(primes[10001])
+print(prime_numbers()[10001])

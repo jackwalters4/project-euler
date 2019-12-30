@@ -3,8 +3,7 @@
 #Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 #Sum of the squares
-squares = [i*i for i in range(101)]
-sum_squares = sum(squares)
+sum_squares = sum(i*i for i in range(101))
 
 #Square of the sum
 nums = [i for i in range(101)]

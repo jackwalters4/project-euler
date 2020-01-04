@@ -6,7 +6,7 @@ import math
 
 #factors function from project euler 3
 def factors(num) :
-	i = int(math.sqrt(num))
+	i = num
 	x = []
 	while (i > 0) :
 		if (num % i == 0) :
@@ -24,4 +24,4 @@ while(len(factors_triangle) < 500) :
 	factors_triangle = factors(triangle_number(i))
 	i += 1
 
-print(triangle_number(i)) 
+print(triangle_number(i-1)) 
